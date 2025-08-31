@@ -42,7 +42,7 @@ export default function Auth() {
       if (error) throw error;
 
       toast({
-        title: "Account created!",
+        title: "Account created Welcome Warrior!",
         description: "Please check your given email to verify your account.",
       });
     } catch (error: any) {
