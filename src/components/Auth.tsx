@@ -43,7 +43,7 @@ export default function Auth() {
 
       toast({
         title: "Account created!",
-        description: "Please check your email to verify your account.",
+        description: "Please check your given email to verify your account.",
       });
     } catch (error: any) {
       toast({
